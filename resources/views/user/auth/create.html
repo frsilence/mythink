@@ -53,6 +53,11 @@
                 <button type="submit"
                         class="btn btn-primary btn-block">注册</button>
             </form>
+            {if (session('?validate'))}
+            <div class="alert alert-warning" role="alert">
+                {$Think.session.validate}
+            </div>
+            {/if}
         </div>
     </div>
 </div>
