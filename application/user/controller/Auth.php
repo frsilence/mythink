@@ -8,6 +8,9 @@ use app\user\model\User;
 
 class Auth extends Controller
 {
+    protected $middleware = [
+        'Auth' => ['only' => ['read'] ],
+        ];
     public function create()
     {
         $token = $this->request->token('__token__','sha1');
@@ -26,8 +29,9 @@ class Auth extends Controller
             return redirect('user/auth/read')->params(['id' => $user->id]);
 	    }
     }
-    public function read($id)
+    public function read(Request $request,$id)
     {
+        return $request->user;
         $user = User::get($id);
         if($user){
             $this->assign('user', $user);

@@ -30,7 +30,7 @@ class Users extends Migrator
     {
         $table = $this->table('users');
         $table->addColumn('name','string',['limit'=>15,'comment'=>'用户名'])
-                ->addColumn('email','string',['limit'=>20,'comment'=>'邮箱'])
+                ->addColumn('email','string',['limit'=>50,'comment'=>'邮箱'])
                 ->addColumn('password','string',['comment'=>'密码'])
                 ->addColumn('avatar','string',['null'=>true,'default'=>NULL,'comment'=>'用户头像路径'])
                 ->addColumn('god','boolean',['default'=>FALSE,'comment'=>'是否管理员'])
