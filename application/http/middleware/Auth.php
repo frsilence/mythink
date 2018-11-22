@@ -11,7 +11,7 @@ class Auth
             return $next($request);
         }
         else{
-            return redirect('user/auth/create');
+            return redirect('user/session/create');
         }
         
     }

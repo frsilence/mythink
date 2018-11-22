@@ -15,9 +15,9 @@ return [
     // 服务器地址
     'hostname'        => '127.0.0.1',
     // 数据库名
-    'database'        => 'mythink_test',
+    'database'        => 'mythink',
     // 用户名
-    'username'        => 'mythink_test',
+    'username'        => 'mythink',
     // 密码
     'password'        => 'root',
     // 端口

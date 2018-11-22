@@ -25,9 +25,15 @@ class Session extends Controller
      */
     public function create()
     {
-        $token = $this->request->token('__token__','sha1');
-        $this->assign('token',$token);
-        return $this->fetch();
+        if(session('?user')){
+            $user = session('user');
+            return redirect('user/auth/info',['id'=>$user->id]);
+        }
+        else{
+            $token = $this->request->token('__token__','sha1');
+            $this->assign('token',$token);
+            return $this->fetch();
+        }       
     }
 
     /**
@@ -44,11 +50,10 @@ class Session extends Controller
         }else{
             $user = User::where('email',$request->email)->find();
             if($user !== null && password_verify($request->password,$user->password)){
-                session('user',$user);
-                
+                session('user',$user);               
                 return redirect('user/auth/read',['id'=>1]);
             }else{
-                return redirect('@session/create')->with('validate','邮件地址不存在或密码错误');
+                return redirect('user/session/create')->with('validate','邮件地址不存在或密码错误');
             }
         }
     }
@@ -61,7 +66,7 @@ class Session extends Controller
      */
     public function read($id)
     {
-        //
+        return $id;
     }
 
     /**

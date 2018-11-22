@@ -18,9 +18,15 @@ Route::get('hello/:name', 'index/hello');
 Route::get('', 'welcome/index/home'); 
 Route::get('/help','welcome/index/help'); 
 Route::get('/about','welcome/index/about');
-Route::resource('auth','user/auth');
-Route::resource('session', 'user/session');
-Route::get('user/:id','user/auth/read');
+Route::group('user/',function(){
+    Route::get('auth/register','user/auth/create');
+    Route::post('auth/save','user/auth/save');
+    Route::get('auth/info/:id','user/auth/read');
+    Route::get('loginget','user/session/create');
+    Route::post('loginpost','user/session/save');
+    Route::get(':id','user/session/read');
+});
+
 return [
 
 ];
