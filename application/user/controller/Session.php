@@ -27,7 +27,7 @@ class Session extends Controller
     {
         if(session('?user')){
             $user = session('user');
-            return redirect('user/auth/info',['id'=>$user->id]);
+            return redirect('user/auth/read',['id'=>$user->id]);
         }
         else{
             $token = $this->request->token('__token__','sha1');
@@ -93,13 +93,19 @@ class Session extends Controller
     }
 
     /**
-     * 删除指定资源
+     * 退出当前用户，清空session
      *
      * @param  int  $id
      * @return \think\Response
      */
     public function delete($id)
     {
-        //
+        if(session('?user') && $id == session('user')->id){
+            session(null);
+            return redirect('welcome/index/home');
+        }
+        else{
+            $this->error('非法操作','welcome/index/home');
+        }
     }
 }

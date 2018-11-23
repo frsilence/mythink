@@ -24,6 +24,7 @@ Route::group('user/',function(){
     Route::get('auth/info/:id','user/auth/read');
     Route::get('loginget','user/session/create');
     Route::post('loginpost','user/session/save');
+    Route::get('logout/:id','user/session/delete');
     Route::get(':id','user/session/read');
 });
 

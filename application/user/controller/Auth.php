@@ -32,14 +32,13 @@ class Auth extends Controller
     }
     public function read(Request $request,$id)
     {
-        return $request->user;
         $user = User::get($id);
-        if($user){
-            $this->assign('user', $user);
-            return $this->fetch();
+        if($user==null){
+            return response('null');
         }
         else{
-            return response('null');
+            $this->assign('user', $user);
+            return $this->fetch();
         }
         
     }

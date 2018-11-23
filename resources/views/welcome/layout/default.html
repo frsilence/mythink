@@ -35,9 +35,15 @@
                 <a class="nav-link" href="{:url('welcome/index/about')}">关于</a>
               </li>
             </ul>
-            <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/session/create')}">登录</a>
-            &nbsp;
-            <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/auth/create')}">注册</a>
+            {if session('?user')}
+                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/auth/read',['id'=>session('user')->id])}">{$Think.session.user->name}</a>
+                &nbsp;
+                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/session/delete',['id'=>session('user')->id])}">退出</a>
+            {else /}
+                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/session/create')}">登录</a>
+                &nbsp;
+                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/auth/create')}">注册</a>
+            {/if}
           </div>
         </div>
       </nav>

@@ -1,3 +1,4 @@
+<?php /*a:2:{s:69:"F:\wwwroot\mythink.test\think\resources\views\welcome\index\help.html";i:1542772712;s:73:"F:\wwwroot\mythink.test\think\resources\views\welcome\layout\default.html";i:1542938767;}*/ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>{block name='title'}{/block} -- MyTP</title>
+    <title> 
+帮助
+ -- MyTP</title>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous">
     <link rel="stylesheet" href="/static/css/app.css">
@@ -25,32 +28,34 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="{:url('welcome/index/home')}">主页
+                <a class="nav-link" href="<?php echo url('welcome/index/home'); ?>">主页
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{:url('welcome/index/help')}">帮助</a>
+                <a class="nav-link" href="<?php echo url('welcome/index/help'); ?>">帮助</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{:url('welcome/index/about')}">关于</a>
+                <a class="nav-link" href="<?php echo url('welcome/index/about'); ?>">关于</a>
               </li>
             </ul>
-            {if session('?user')}
-                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/auth/read',['id'=>session('user')->id])}">{$Think.session.user->name}</a>
+            <?php if(session('?user')): ?>
+                <a class="btn btn-outline-success my-2 my-sm-0" href="<?php echo url('user/auth/read',['id'=>session('user')->id]); ?>"><?php echo htmlentities(app('session')->get('user')->name); ?></a>
                 &nbsp;
-                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/session/delete',['id'=>session('user')->id])}">退出</a>
-            {else /}
-                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/session/create')}">登录</a>
+                <a class="btn btn-outline-success my-2 my-sm-0" href="<?php echo url('user/session/delete',['id'=>session('user')->id]); ?>">退出</a>
+            <?php else: ?>
+                <a class="btn btn-outline-success my-2 my-sm-0" href="<?php echo url('user/session/create'); ?>">登录</a>
                 &nbsp;
-                <a class="btn btn-outline-success my-2 my-sm-0" href="{:url('user/auth/create')}">注册</a>
-            {/if}
+                <a class="btn btn-outline-success my-2 my-sm-0" href="<?php echo url('user/auth/create'); ?>">注册</a>
+            <?php endif; ?>
           </div>
         </div>
       </nav>
     </div>
   </header>
   <div class="container">
-    {block name='content'}{/block}
+     
+帮助 
+
   </div>
   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
