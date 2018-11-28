@@ -23,7 +23,7 @@ class Auth extends Controller
 	    $result = $this->validate($requestData, 'app\user\validate\Auth');
 	    if (true !== $result) {
             //验证失败
-	        return redirect('auth/create')->with('validate',$result);
+	        return redirect('user/auth/create')->with('validate',$result);
 	    } else {
             $user = User::create($requestData);
             session('user',$user);
