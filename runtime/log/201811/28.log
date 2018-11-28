@@ -1,0 +1,598 @@
+---------------------------------------------------------------
+[ 2018-11-28T10:08:11+08:00 ] 10.23.155.242 GET 10.23.155.242/
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,445.49kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'welcome/index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'purpose' => 'prefetch',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\home.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:08:11+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:11+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:11+08:00 ] 10.23.155.242 GET 10.23.155.242/
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,445.44kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'welcome/index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\home.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:08:11+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:11+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:13+08:00 ] 10.23.155.242 GET 10.23.155.242/user/auth/register.html
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,448.34kb] [文件加载：65]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/auth/register',
+  'route' => 'user/auth/create',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\user\auth\create.html [ array (
+  0 => 'token',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:08:13+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:13+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:13+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:13+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:18+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:08:18+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:03+08:00 ] 10.23.155.242 POST 10.23.155.242/user/auth/save.html
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：2,363.49kb] [文件加载：71]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/auth/save',
+  'route' => 'user/auth/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/auth/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://10.23.155.242',
+  'cache-control' => 'max-age=0',
+  'content-length' => '120',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'd3745954ff901f15e3e94968427201c7f3ec4337',
+  'name' => 'aly',
+  'email' => 'aly@123.com',
+  'password' => '123456',
+  'password_confirm' => '1223456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=mythink_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `name` = 'aly' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `email` = 'aly@123.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-11-28T10:09:03+08:00 ] 10.23.155.242 GET 10.23.155.242/user/auth/create.html
+[运行时间：0.027002s] [吞吐率：37.03req/s] [内存消耗：1,387.82kb] [文件加载：61]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/<id>',
+  'route' => 'user/session/read',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => 'auth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/auth/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'auth',
+)
+---------------------------------------------------------------
+[ 2018-11-28T10:09:20+08:00 ] 10.23.155.242 GET 10.23.155.242/user/auth/create.html
+[运行时间：0.033002s] [吞吐率：30.30req/s] [内存消耗：1,387.82kb] [文件加载：61]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/<id>',
+  'route' => 'user/session/read',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => 'auth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/auth/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'auth',
+)
+---------------------------------------------------------------
+[ 2018-11-28T10:09:21+08:00 ] 10.23.155.242 GET 10.23.155.242/user/auth/register.html
+[运行时间：0.031002s] [吞吐率：32.26req/s] [内存消耗：1,448.59kb] [文件加载：65]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/auth/register',
+  'route' => 'user/auth/create',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\user\auth\create.html [ array (
+  0 => 'token',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:09:24+08:00 ] 10.23.155.242 GET 10.23.155.242/
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：1,446.33kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'welcome/index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/auth/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\home.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:09:24+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021002s] [吞吐率：47.61req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:24+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:24+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021002s] [吞吐率：47.61req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:24+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:27+08:00 ] 10.23.155.242 GET 10.23.155.242/user/loginget.html
+[运行时间：0.031001s] [吞吐率：32.26req/s] [内存消耗：1,451.17kb] [文件加载：65]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/loginget',
+  'route' => 'user/session/create',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\user\session\create.html [ array (
+  0 => 'token',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:09:27+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:27+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021002s] [吞吐率：47.61req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:27+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:27+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:41+08:00 ] 10.23.155.242 GET 10.23.155.242/about.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,447.21kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'about',
+  'route' => 'welcome/index/about',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/loginget.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\about.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:09:41+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:41+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:41+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:09:41+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:14+08:00 ] 10.23.155.242 GET 10.23.155.242/about.html
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,447.27kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'about',
+  'route' => 'welcome/index/about',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/loginget.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\about.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:13:14+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021002s] [吞吐率：47.61req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:14+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.022001s] [吞吐率：45.45req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:14+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:14+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:17+08:00 ] 10.23.155.242 GET 10.23.155.242/user/auth/register.html
+[运行时间：0.032002s] [吞吐率：31.25req/s] [内存消耗：1,448.61kb] [文件加载：65]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/auth/register',
+  'route' => 'user/auth/create',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/about.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\user\auth\create.html [ array (
+  0 => 'token',
+) ]
+---------------------------------------------------------------
+[ 2018-11-28T10:13:17+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.025001s] [吞吐率：40.00req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:17+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.022001s] [吞吐率：45.45req/s] [内存消耗：972.40kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:17+08:00 ] 10.23.155.242 GET 10.23.155.242/static/css/app.css
+[运行时间：0.023002s] [吞吐率：43.47req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:17+08:00 ] 10.23.155.242 GET 10.23.155.242/static/js/app.js
+[运行时间：0.024001s] [吞吐率：41.66req/s] [内存消耗：972.41kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-28T10:13:27+08:00 ] 10.23.155.242 POST 10.23.155.242/user/auth/save.html
+[运行时间：0.055003s] [吞吐率：18.18req/s] [内存消耗：2,363.55kb] [文件加载：71]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/auth/save',
+  'route' => 'user/auth/save',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/auth/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://10.23.155.242',
+  'cache-control' => 'max-age=0',
+  'content-length' => '118',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '61f1d6567531082eb02310a10ae6351578ec59c0',
+  'name' => '1',
+  'email' => 'test@123.com',
+  'password' => '123456',
+  'password_confirm' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=mythink_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `users` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `name` = '1' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `users` WHERE  `email` = 'test@123.com' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-11-28T10:13:27+08:00 ] 10.23.155.242 GET 10.23.155.242/user/auth/create.html
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：1,387.82kb] [文件加载：61]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'user/<id>',
+  'route' => 'user/session/read',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => 'auth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=cc73433nnfu98061lbhpoco40g; Hm_lvt_f37400f14441ebc0c3645d104244b130=1543296027; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1543296688; Hm_lpvt_8cc45d54c337ca616c34b1cf747da91c=1543296841; Hm_lpvt_f37400f14441ebc0c3645d104244b130=1543370887',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://10.23.155.242/user/auth/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '10.23.155.242',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'auth',
+)

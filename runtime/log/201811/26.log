@@ -1,0 +1,155 @@
+---------------------------------------------------------------
+[ 2018-11-26T09:05:04+08:00 ] 127.0.0.1 GET mythink.test/
+[运行时间：0.041003s] [吞吐率：24.39req/s] [内存消耗：1,444.59kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'welcome/index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9764344832',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'mythink.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\home.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-26T09:05:04+08:00 ] 127.0.0.1 GET mythink.test/static/css/app.css
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：972.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:04+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：972.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:04+08:00 ] 127.0.0.1 GET mythink.test/static/css/app.css
+[运行时间：0.023001s] [吞吐率：43.48req/s] [内存消耗：972.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:04+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:17+08:00 ] 127.0.0.1 GET mythink.test/
+[运行时间：0.043002s] [吞吐率：23.25req/s] [内存消耗：1,444.73kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'welcome/index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9764344832; PHPSESSID=vqok8vhpseop1mrdfanndpcqs6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'mythink.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\home.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-26T09:05:17+08:00 ] 127.0.0.1 GET mythink.test/static/css/app.css
+[运行时间：0.020002s] [吞吐率：50.00req/s] [内存消耗：972.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:17+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：972.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:17+08:00 ] 127.0.0.1 GET mythink.test/static/css/app.css
+[运行时间：0.020002s] [吞吐率：49.99req/s] [内存消耗：972.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:17+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:20+08:00 ] 127.0.0.1 GET mythink.test/
+[运行时间：0.032001s] [吞吐率：31.25req/s] [内存消耗：1,444.73kb] [文件加载：66]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'welcome/index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9764344832; PHPSESSID=vqok8vhpseop1mrdfanndpcqs6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'mythink.test',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\wwwroot\mythink.test\think\resources\views\welcome\index\home.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-11-26T09:05:20+08:00 ] 127.0.0.1 GET mythink.test/static/css/app.css
+[运行时间：0.021002s] [吞吐率：47.61req/s] [内存消耗：972.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:20+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.022001s] [吞吐率：45.45req/s] [内存消耗：972.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:20+08:00 ] 127.0.0.1 GET mythink.test/static/css/app.css
+[运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：972.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:20+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:25+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.37kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-26T09:05:25+08:00 ] 127.0.0.1 GET mythink.test/static/js/app.js
+[运行时间：0.021001s] [吞吐率：47.62req/s] [内存消耗：972.38kb] [文件加载：50]
+[ info ] [ LANG ] F:\wwwroot\mythink.test\think\thinkphp\lang\zh-cn.php
